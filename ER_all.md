@@ -68,5 +68,9 @@ entity "購入テーブル" as order <d_purchase> <<T,TRANSACTION_MARK_COLOR>> M
         reg_date
     }
   }
+  customer       |o-ri-o{     order
+order          ||-ri-|{     order_detail
+order_detail    }-do-||     items
+items          }o-le-||     category
 @enduml
 ```
