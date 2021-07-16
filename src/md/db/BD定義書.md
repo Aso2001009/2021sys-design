@@ -30,7 +30,7 @@
 |和名|属性名(カラム名)|型|PK|NN|FK|
 |:---|:---|:---|:---|:---:|:----:|
 |顧客コード|customer_code|varchar(50)|〇|〇||
-|パスワード|pass|varchar(50)|〇|〇|〇|
+|パスワード|pass|varchar(50)||〇|〇|
 |氏名|name|varchar(50)||〇||
 |住所|address|varchar(20)||〇||
 |電話番号|tel|varchar(20)||〇||
